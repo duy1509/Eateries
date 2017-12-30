@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8V2-Ac-0Ur">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cartoon-character-2947794__480" translatesAutoresizingMaskIntoConstraints="NO" id="TaM-yH-tra">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="TaM-yH-tra" firstAttribute="top" secondItem="8V2-Ac-0Ur" secondAttribute="top" id="3UF-dv-TLS"/>
+                                    <constraint firstItem="TaM-yH-tra" firstAttribute="leading" secondItem="8V2-Ac-0Ur" secondAttribute="leading" id="NJB-7U-FaM"/>
+                                    <constraint firstAttribute="trailing" secondItem="TaM-yH-tra" secondAttribute="trailing" id="Phq-0g-w0J"/>
+                                    <constraint firstAttribute="bottom" secondItem="TaM-yH-tra" secondAttribute="bottom" id="jOl-ac-NRc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8V2-Ac-0Ur" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9kf-fS-UND"/>
+                            <constraint firstItem="8V2-Ac-0Ur" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bAW-qs-XcY"/>
+                            <constraint firstItem="8V2-Ac-0Ur" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="q3w-Zc-OKf"/>
+                            <constraint firstItem="8V2-Ac-0Ur" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="wCR-nk-VqI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cartoon-character-2947794__480" width="295" height="480"/>
+    </resources>
+</document>

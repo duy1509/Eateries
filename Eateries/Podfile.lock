@@ -1,0 +1,205 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AXPhotoViewer (1.3.6):
+    - AXPhotoViewer/Lite (= 1.3.6)
+  - AXPhotoViewer/Core (1.3.6):
+    - AXStateButton (>= 1.1.3)
+    - FLAnimatedImage (>= 1.0.0)
+  - AXPhotoViewer/Lite (1.3.6):
+    - AXPhotoViewer/Core
+  - AXStateButton (1.1.4)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.3.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.27)
+  - FacebookLogin (0.3.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3)
+    - FBSDKCoreKit (~> 4.27)
+    - FBSDKLoginKit (~> 4.27)
+  - FacebookShare (0.3.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3)
+    - FBSDKCoreKit (~> 4.27)
+    - FBSDKShareKit (~> 4.27)
+  - FBSDKCoreKit (4.28.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.28.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.28.0):
+    - FBSDKCoreKit
+  - Firebase (4.7.0):
+    - Firebase/Core (= 4.7.0)
+  - Firebase/Auth (4.7.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.4.0)
+  - Firebase/Core (4.7.0):
+    - FirebaseAnalytics (= 4.0.5)
+    - FirebaseCore (= 4.0.12)
+  - Firebase/Crash (4.7.0):
+    - Firebase/Core
+    - FirebaseCrash (= 2.0.2)
+  - Firebase/Database (4.7.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.2)
+  - Firebase/Messaging (4.7.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.7)
+  - Firebase/Storage (4.7.0):
+    - Firebase/Core
+    - FirebaseStorage (= 2.1.0)
+  - FirebaseAnalytics (4.0.5):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.4.0):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.12):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCrash (2.0.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseDatabase (4.1.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.7)
+  - FirebaseMessaging (2.0.7):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (2.1.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FLAnimatedImage (1.0.12)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - GoogleSignIn (4.1.1):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.12):
+    - GTMSessionFetcher/Full (= 1.1.12)
+  - GTMSessionFetcher/Core (1.1.12)
+  - GTMSessionFetcher/Full (1.1.12):
+    - GTMSessionFetcher/Core (= 1.1.12)
+  - IQKeyboardManager (5.0.6)
+  - Kingfisher (4.5.0)
+  - KRPullLoader (1.1.0)
+  - leveldb-library (1.20)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NVActivityIndicatorView (4.0.1):
+    - NVActivityIndicatorView/Presenter (= 4.0.1)
+  - NVActivityIndicatorView/Presenter (4.0.1)
+  - ProgressHUD (2.51)
+  - Protobuf (3.5.0)
+  - SwiftyJSON (4.0.0)
+  - TLPhotoPicker (1.3.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AXPhotoViewer
+  - Bolts
+  - FacebookCore (~> 0.2)
+  - FacebookLogin (~> 0.2)
+  - FacebookShare (~> 0.2)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Crash
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleSignIn
+  - IQKeyboardManager
+  - Kingfisher
+  - KRPullLoader
+  - NVActivityIndicatorView
+  - ProgressHUD
+  - SwiftyJSON
+  - TLPhotoPicker
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AXPhotoViewer: f1edb13f8116f57e67c5f2a6484acd9f8a54d263
+  AXStateButton: 6c515a433e37551505046429b5be04c12daa8c07
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
+  FacebookLogin: 0af839ea858faef99550d16596b87b4a8e8906e6
+  FacebookShare: 0469964297ebd75f052be2c5083389a4208e82b7
+  FBSDKCoreKit: ca961e279113f691fd83dc634c0bbad9d4e3f370
+  FBSDKLoginKit: b077381c27d800f21661757e8140cf2c80a91e4a
+  FBSDKShareKit: 4f525556e0df4cf0f574cb3f01c675434f29d477
+  Firebase: dbfb98ccec2dcfcd21ab9cc1b4981a3f3c8c5e26
+  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
+  FirebaseAuth: cdeee95b528958dbb7dcf220ad0fb804d3a284b0
+  FirebaseCore: 6cf108b63997bc08c04a1ffa55a3ac0d71a59ffc
+  FirebaseCrash: cded0fc566c03651aea606a101bc156085f333ca
+  FirebaseDatabase: 18ecb23e15c7f58bb0c4527e9cace06897cc40ca
+  FirebaseInstanceID: 148c25c986c8699e67304b114e365713dce467f2
+  FirebaseMessaging: 1a11d1c0a9ed9b3f75a0685bb0ae5932e1062f5f
+  FirebaseStorage: 0930e97994dc79b404179bdfafb6b16f59433a82
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  GoogleSignIn: 3fdaa34a2ba04dbd7a25d7db39aecb0da98d5bdc
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  IQKeyboardManager: 077b7f691dfa9d69db9cff66f2bed68ebfc02d9b
+  Kingfisher: 26ae0473102b77b575da51960c932431e3745407
+  KRPullLoader: 8209e472b2f7f67b22e809f0b614ca1043a8239e
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
+  ProgressHUD: 54b4c2fa202bf3da7dddc1c698ae4e6376333bd9
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TLPhotoPicker: 5df5d11548fdaeaf43816668a06dbc920d967d35
+
+PODFILE CHECKSUM: 2c946c8a055806e7a7dd5d4f3015fc6fffde0383
+
+COCOAPODS: 1.3.1

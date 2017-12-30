@@ -1,0 +1,42 @@
+platform :ios, ‘9.1’
+use_frameworks!
+
+target 'Eateries' do
+
+    pod 'Alamofire', '~> 4.0'
+    pod 'SwiftyJSON'
+    pod 'Bolts'
+    pod 'IQKeyboardManager'
+    pod 'Firebase/Core’
+    pod 'Firebase/Crash'
+    pod 'Firebase/Messaging'
+    pod 'NVActivityIndicatorView'
+    pod 'Kingfisher'
+    pod 'GoogleSignIn'
+    pod 'GoogleMaps’
+    pod 'GooglePlaces'
+    pod "KRPullLoader"	
+    pod 'AXPhotoViewer'
+    pod 'FacebookCore', '~> 0.2'
+    pod 'FacebookLogin', '~> 0.2'
+    pod 'FacebookShare', '~> 0.2'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    pod 'FBSDKShareKit'
+    pod "TLPhotoPicker"
+    pod 'Firebase/Auth'
+    pod 'Firebase/Database'
+    pod 'Firebase'
+    pod 'Firebase/Storage'
+    pod 'ProgressHUD'
+end
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        if ['Texture', 'FacebookCore', 'FacebookLogin', 'FacebookShare', 'FBSDKCoreKit', 'FBSDKLoginKit', 'FBSDKShareKit', 'Bolts'].include? target.name
+            target.build_configurations.each do |config|
+                config.build_settings['SWIFT_VERSION'] = '3.2'
+            end
+        end
+    end
+end
+
